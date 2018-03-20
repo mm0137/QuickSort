@@ -39,9 +39,9 @@ void QuickSort(int arr[], int first , int last)
 int main()
 {
 	int n; 
-	std::cin >> n;
-
 	int arr[100];
+	
+	do {std::cin >> n;}	while(n<1 || n>99);
 
 	for (int i = 0; i < n; ++i)
 	{
